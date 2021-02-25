@@ -1,0 +1,9 @@
+C:\Users\tijur\source\repos\CPA.CodingChallenge\CPA.Services\bin\Debug\netcoreapp3.1\CPA.Services.deps.json
+C:\Users\tijur\source\repos\CPA.CodingChallenge\CPA.Services\bin\Debug\netcoreapp3.1\CPA.Services.dll
+C:\Users\tijur\source\repos\CPA.CodingChallenge\CPA.Services\bin\Debug\netcoreapp3.1\CPA.Services.pdb
+C:\Users\tijur\source\repos\CPA.CodingChallenge\CPA.Services\obj\Debug\netcoreapp3.1\CPA.Services.csprojAssemblyReference.cache
+C:\Users\tijur\source\repos\CPA.CodingChallenge\CPA.Services\obj\Debug\netcoreapp3.1\CPA.Services.AssemblyInfoInputs.cache
+C:\Users\tijur\source\repos\CPA.CodingChallenge\CPA.Services\obj\Debug\netcoreapp3.1\CPA.Services.AssemblyInfo.cs
+C:\Users\tijur\source\repos\CPA.CodingChallenge\CPA.Services\obj\Debug\netcoreapp3.1\CPA.Services.csproj.CoreCompileInputs.cache
+C:\Users\tijur\source\repos\CPA.CodingChallenge\CPA.Services\obj\Debug\netcoreapp3.1\CPA.Services.dll
+C:\Users\tijur\source\repos\CPA.CodingChallenge\CPA.Services\obj\Debug\netcoreapp3.1\CPA.Services.pdb

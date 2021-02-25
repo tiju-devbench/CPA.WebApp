@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "B9+WepmdwrJMpIMJnm4iK+sZrMIxb6c2nNOUMuKzrHRdhahZ8WWOm53ZNK7C87clQRzCrmhyQD/ZT4836P6sKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tijur\\source\\repos\\CPA.CodingChallenge\\CPA.Services\\CPA.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tijur\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\tijur\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\tijur\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

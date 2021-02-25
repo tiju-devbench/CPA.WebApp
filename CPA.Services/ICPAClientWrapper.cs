@@ -8,5 +8,7 @@ namespace CPA.Services
     interface ICPAClientWrapper
     {
         Task<List<ExamResultResponse>> GetResults();
+
+        Task<List<PassedSubjects>> LoadPassedSubjects();
     }
 }

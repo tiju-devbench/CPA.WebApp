@@ -47,10 +47,9 @@ namespace CPA.CodingChallenge.Controllers
             try
             {
                 CPAClientWrapper client = new CPAClientWrapper(_config);
-                var result = await client.GetResults();
-                var passedsubjects = GetPassedSubjects(result);
+                var result = await client.LoadPassedSubjects();
 
-                return Ok(passedsubjects);
+                return Ok(result);
             }
             catch (Exception ex)
             {
@@ -59,25 +58,6 @@ namespace CPA.CodingChallenge.Controllers
             }
             return BadRequest();
         }
-
-        private List<PassedSubjects> GetPassedSubjects(List<ExamResultResponse> result)
-        {
-            List<ExamResultResponse> filteredList = new List<ExamResultResponse>();
-            PassedSubjects sub = new PassedSubjects();
-
-
-
-            var res = result.SelectMany(r => r.Results.Where(x => x.Grade == "PASS"), (a, b) => (b.Year, a.Subject))
-                .GroupBy(x => x.Year)
-                .Select(group =>
-                        new PassedSubjects
-                        {
-                            Year = group.Key,
-                            Subjects = group.OrderBy(x => x.Subject).Select(x=> x.Subject).ToList()
-                        }).OrderBy(x=> x.Year);
-                
-
-            return res.ToList();
-        }
+        
     }
 }
